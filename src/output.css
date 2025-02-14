@@ -582,12 +582,20 @@ video {
   top: -578px;
 }
 
+.top-\[40\%\] {
+  top: 40%;
+}
+
 .z-\[1000\] {
   z-index: 1000;
 }
 
 .z-\[100001\] {
   z-index: 100001;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -600,6 +608,10 @@ video {
 
 .hidden {
   display: none;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-full {
@@ -646,6 +658,26 @@ video {
   background-color: var(--bg-color);
 }
 
+.bg-\[url\(\'\.\.\/img\/home3\.jpg\'\)\] {
+  background-image: url('../img/home3.jpg');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\.\.\/\'\)\] {
+  background-image: url('../');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -680,6 +712,10 @@ video {
   padding-right: 4%;
 }
 
+.pl-\[80px\] {
+  padding-left: 80px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -701,6 +737,15 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -711,6 +756,14 @@ video {
 
 .font-normal {
   font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {
@@ -728,6 +781,11 @@ video {
 
 .text-\[var\(--bg-color\)\] {
   color: var(--bg-color);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .shadow-md {
@@ -761,6 +819,11 @@ video {
 .hover\:bg-red-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-\[\#fa1216\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 18 22 / var(--tw-bg-opacity, 1));
 }
 
 @media (min-width: 640px) {
@@ -817,5 +880,20 @@ video {
   .lg\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 }

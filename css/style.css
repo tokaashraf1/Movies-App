@@ -30,6 +30,9 @@
     color: var(--bg-color);
     height: 3000px;
   }
+  section {
+    padding: 4.5rem 1.5rem;
+  }
   header.shadow {
     background-color: var(--bg-color);
     box-shadow: 0 0 4px rgb(14 55 54 / 15%);
