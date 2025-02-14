@@ -57,6 +57,11 @@
   .navbar .home-active::after {
     width: 100%;
   }
+  input::placeholder {
+    color: var(--text-color);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
   @media (max-width:768px) {
     header.shadow #menu-icon {
       color: var(--text-color);
@@ -80,8 +85,16 @@
     grid-template-columns: repeat(auto-fit, minmax(160px ,auto));
   }
   }
+  @media (max-width:472px) {
+    .news form  .email {
+      display: none;
+    }
+      }
   @media (max-width:370px) {
 .home-text{
     font-size: 1.2rem;
 }
+
   }
+
+
