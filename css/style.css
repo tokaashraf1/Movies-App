@@ -1,100 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    scroll-padding-top: 2rem;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  /* custom scroll bar */
-  html::-webkit-scrollbar {
-    width: 0.5rem;
-    background-color: var(--text-color);
-  }
-  html::-webkit-scrollbar-thumb {
-    background-color: var(--main-color);
-    border-radius: 5rem;
-  }
-  /* custom scroll bar */
-  :root {
-    --main-color:#ff2c1f;
-    --text-color:#020307;
-    --bg-color:#fff;
-  }
-  body {
-    font-family: 'Poppins', sans-serif;
-    background: var(--text-color);
-    color: var(--bg-color);
-    height: 3000px;
-  }
-  section {
-    padding: 4.5rem 1.5rem;
-  }
-  header.shadow {
-    background-color: var(--bg-color);
-    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
-  }
-  header.shadow .navbar a {
-    color: var(--text-color);
-  }
-  header.shadow .logo  {
-    color: var(--text-color);
-  }
-  .navbar a::after{
-    content: '';
-    position: absolute;
-    background-color: var(--main-color);
-    width: 0;
-    height: 3px;
-    left: 0;
-    bottom: -4px;
-    transition: 0.4s all linear;
-  }
-  .navbar a:hover::after,
-  .navbar .home-active::after {
-    width: 100%;
-  }
-  input::placeholder {
-    color: var(--text-color);
-    font-size: 0.8rem;
-    font-weight: 400;
-  }
-  @media (max-width:768px) {
-    header.shadow #menu-icon {
-      color: var(--text-color);
-    }
-    .navbar a {
-      color: var(--text-color);
-      transition: 0.3s all linear;
-    }
-    .navbar a:hover {
-      color: var(--main-color);
-      border-bottom: 2px solid var(--main-color);
-    }
-    .navbar a::after {
-      display: none;
-    }
-    .navbar.active {
-      top: 100%;
-    }  
-  .movies-container,
-  .coming-container {
-    grid-template-columns: repeat(auto-fit, minmax(160px ,auto));
-  }
-  }
-  @media (max-width:472px) {
-    .news form  .email {
-      display: none;
-    }
-      }
-  @media (max-width:370px) {
-.home-text{
-    font-size: 1.2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-padding-top: 2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--text-color);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5rem;
+}
+
+/* custom scroll bar */
+:root {
+  --main-color: #ff2c1f;
+  --text-color: #020307;
+  --bg-color: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--text-color);
+  color: var(--bg-color);
+  height: 3000px;
+}
+
+section {
+  padding: 4.5rem 1.5rem;
+}
+
+header.shadow {
+  background-color: var(--bg-color);
+  box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+header.shadow .navbar a {
+  color: var(--text-color);
+}
+
+header.shadow .logo {
+  color: var(--text-color);
+}
+
+.navbar a::after {
+  content: '';
+  position: absolute;
+  background-color: var(--main-color);
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -4px;
+  transition: 0.4s all linear;
+}
+
+.navbar a:hover::after,
+.navbar .home-active::after {
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--text-color);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+@media (max-width:768px) {
+  header.shadow #menu-icon {
+    color: var(--text-color);
   }
 
+  .navbar a {
+    color: var(--text-color);
+    transition: 0.3s all linear;
+  }
 
+  .navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+  }
+
+  .navbar a::after {
+    display: none;
+  }
+
+  .navbar.active {
+    top: 100%;
+  }
+
+  .movies-container,
+  .coming-container {
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  }
+}
+
+@media (max-width:472px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .news form .email {
+    display: none;
+  }
+  .home-text {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width:370px) {
+  .home-text {
+    font-size: 1.2rem;
+  }
+
+}
