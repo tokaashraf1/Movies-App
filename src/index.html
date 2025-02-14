@@ -18,7 +18,19 @@
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-   
+     <!--Navbar  -->
+     <header class="fixed top-0 right-0 w-full flex justify-between items-center px-[100px] py-5 z-[1000] transition-all duration-500">
+      <a href="#home" class="text-[1.1rem] font-semibold text-white flex items-center gap-2"> <i class="fa-solid fa-film  text-[24px] text-white"></i> Movies </a>
+      <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      <!-- menu -->
+      <ul class="flex gap-[5rem] navbar">
+        <li class="relative"><a class="home-active font-medium text-[1rem] text-[var(--main-color)]" href="#home">Home</a></li>
+        <li class="relative"><a class="font-medium text-[1rem] text-[var(--main-color)]" href="#movies">Movies</a></li>
+        <li class="relative"><a class="font-medium text-[1rem] text-[var(--main-color)]" href="#coming soon">Coming Soon</a></li>
+        <li class="relative"><a  class="font-medium text-[1rem] text-[var(--main-color)]"href="#newsletter">Newsletter</a></li>
+      </ul>
+      <a href="#" class="btn">Sign In</a>
+    </header>
     <script src="../js/main.js"></script>
   </body>
 </html>

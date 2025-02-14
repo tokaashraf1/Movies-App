@@ -554,12 +554,99 @@ video {
   display: none;
 }
 
-.bg-pink-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(80 7 36 / var(--tw-bg-opacity, 1));
+.fixed {
+  position: fixed;
 }
 
-.bg-rose-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(76 5 25 / var(--tw-bg-opacity, 1));
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-\[1000\] {
+  z-index: 1000;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-\[5rem\] {
+  gap: 5rem;
+}
+
+.px-\[100px\] {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.text-\[1\.1rem\] {
+  font-size: 1.1rem;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[var\(--main-color\)\] {
+  color: var(--main-color);
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
