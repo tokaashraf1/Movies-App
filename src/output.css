@@ -746,6 +746,18 @@ video {
   font-size: 4rem;
 }
 
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
+}
+
+.text-\[1\.7rem\] {
+  font-size: 1.7rem;
+}
+
+.text-\[2\.4rem\] {
+  font-size: 2.4rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -836,6 +848,26 @@ video {
     padding-left: 4%;
     padding-right: 4%;
   }
+
+  .sm\:text-\[2\.4rem\] {
+    font-size: 2.4rem;
+  }
+
+  .sm\:text-\[\] {
+    color: ;
+  }
+
+  .sm\:text-\[2\.a\] {
+    color: 2.a;
+  }
+
+  .sm\:text-\[2\.\] {
+    color: 2.;
+  }
+
+  .sm\:text-\[2\.4\] {
+    color: 2.4;
+  }
 }
 
 @media (min-width: 768px) {
@@ -862,6 +894,14 @@ video {
   .md\:py-\[12px\] {
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+
+  .md\:text-\[3rem\] {
+    font-size: 3rem;
+  }
+
+  .md\:text-\[\] {
+    color: ;
   }
 
   .md\:shadow-none {
@@ -895,5 +935,9 @@ video {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem;
   }
 }

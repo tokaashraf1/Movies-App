@@ -81,3 +81,12 @@
 
     
   }
+  @media (max-width:370px) {
+.home-text{
+
+    font-size: 1.2rem;
+
+}
+   
+
+  }
