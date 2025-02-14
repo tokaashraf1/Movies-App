@@ -6,4 +6,4 @@ This is a and stylish movie website built using TailwindCSS, HTML, and JavaScrip
  ## 🚀Website Preview
 <br>
 <br>
-<img src="img/movie.jpeg" alt="img" width="800" />
+<img src="img/movie.jpeg" alt="img" width="700" />
