@@ -812,6 +812,10 @@ video {
   font-size: 0.9rem;
 }
 
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
