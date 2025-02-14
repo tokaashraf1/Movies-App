@@ -28,6 +28,7 @@
     font-family: 'Poppins', sans-serif;
     background: var(--text-color);
     color: var(--bg-color);
+    height: 3000px;
   }
   header.shadow {
     background-color: var(--bg-color);
@@ -52,4 +53,12 @@
   .navbar a:hover::after,
   .navbar .home-active::after {
     width: 100%;
+  }
+  @media (max-width:768px) {
+    header.shadow #menu-icon {
+      color: var(--text-color);
+    }
+    .navbar.active {
+      top: 100%;
+    }
   }
